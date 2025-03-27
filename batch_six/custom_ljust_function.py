@@ -10,5 +10,6 @@ def custom_ljust_function(string, total_length):
 
     # if the string is already long enough, return it as is
     return string
-    
+
 # print the result of calling the function with the string "hello" and width 10 
+print(custom_ljust_function("hello", 10))
