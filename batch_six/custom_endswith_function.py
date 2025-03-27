@@ -9,6 +9,9 @@ def custom_endswith_function(string, suffix):
 
     # compare the removed part with the suffix and return the result
     return remove_last_suffix == suffix
-    
+
 # print the result of calling the function with the string "hello world" and suffix "world"
+print(custom_endswith_function("hello world", "world"))
+
 # print the result of calling the function with the string "hello world" and suffix "hello"
+print(custom_endswith_function("hello world", "hello"))
