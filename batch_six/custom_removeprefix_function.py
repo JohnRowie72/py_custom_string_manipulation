@@ -12,5 +12,6 @@ def custom_remove_prefix(string, prefix):
 
     # otherwise, return the input string as is
     return string
-    
+
 # print the result of calling the function with the string "helloworld" and prefix "hello"
+print(custom_remove_prefix("helloworld", "hello"))  # "world"
