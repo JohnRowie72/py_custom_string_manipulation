@@ -10,6 +10,9 @@ def custom_isupper_function(string):
 
     # if no lowercase characters are found, return True
     return True
-    
+
 # print the result of calling the function with the string "HELLO WORLD"
+print(custom_isupper_function("HELLO WORLD"))
+
 # print the result of calling the function with the string "Hello World"
+print(custom_isupper_function("Hello World"))
