@@ -12,3 +12,4 @@ def custom_lstrip(string):
     return string[i:]
     
 # print the result of calling the function with the string "   hello"
+print(custom_lstrip("   hello"))  # "hello"
