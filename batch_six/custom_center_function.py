@@ -10,5 +10,6 @@ def custpm_center_function(string, total_length):
 
     # create the centered string
     return " " * left_spaces + string + " " * right_spaces
-    
+
 # print the result of calling the function with the string "hello" and length 11
+print(custom_center_function("hello", 11))
