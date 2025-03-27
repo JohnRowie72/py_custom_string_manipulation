@@ -16,5 +16,6 @@ def custom_lowercase_function(string):
 
     # return the result string
     return result_of_string
-    
+
 # print the result of calling the function with the string "HeLLo, WoRLd!"
+print(custom_lowercase_function("HeLLo, WoRLd!"))  # "hello, world!"
