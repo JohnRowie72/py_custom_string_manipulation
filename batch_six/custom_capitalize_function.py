@@ -15,5 +15,6 @@ def custom_capitalize_function(string):
 
     # return the final capitalized string
     return first_character + rest_of_string
-    
+
 # print the result of calling the function with the string "hELLO, WORLD!"
+print(custom_capitalize_function("hELLO, WORLD!"))
