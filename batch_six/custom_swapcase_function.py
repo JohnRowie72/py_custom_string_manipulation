@@ -21,5 +21,6 @@ def custom_swapcase_function(string):
 
     # return the result string
     return result_of_string
-    
+
 # print the result of calling the function with the string "Hello, World!"
+print(custom_swapcase_function("Hello, World!"))
