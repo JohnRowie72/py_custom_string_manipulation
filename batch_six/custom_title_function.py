@@ -1,6 +1,12 @@
 # define a function that converts a string to title case
+def custom_title_function(string):
+
     # split the string into words
+    words = string.split()
+
     # initialize an empty string to store the result
+    result_string = ""
+    
     # loop through each word in the input string
         # capitalize the first letter of the word
         # convert the rest of the letters to lowercase
