@@ -25,3 +25,4 @@ def custom_title_function(string):
     return result_string.strip()
     
 # print the result of calling the function with the string "hello WORLD from PYTHON!"
+print(custom_title_function("hello WORLD from PYTHON!"))  # "Hello World From Python!"
