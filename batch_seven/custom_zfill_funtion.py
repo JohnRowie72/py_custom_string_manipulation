@@ -1,4 +1,6 @@
 # define a function that pads a string with zeros to a specified width
+def custom_zfill_function(string, width):
+    
     # add zeros at the beginning if the string is shorter than the width
 # get user input for string
 # get user input for width
