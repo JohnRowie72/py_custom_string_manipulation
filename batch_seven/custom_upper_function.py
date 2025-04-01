@@ -15,6 +15,9 @@ def custom_upper_function(string):
 
     # return the uppercase string
     return result
-    
+
 # get user input for string
+string_name_input = input("Enter a string: ")
+
 # call the function with user input and print the result
+print(custom_upper_function(string_name_input))
