@@ -12,4 +12,7 @@ def custom_islower_function(string):
     return True
 
 # get user input for string
+string_name_input = input("Enter a string: ")
+
 # call the function with user input and print the result
+print(custom_islower_function(string_name_input))
