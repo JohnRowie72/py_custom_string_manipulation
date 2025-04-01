@@ -3,9 +3,18 @@ def custom_upper_function(string):
 
     # initialize an empty string to store the result
     result = ""
-    
+
     # loop through each character in the input string
+    for character in string:
+
         # if the character is lowercase, convert it to uppercase and append to result
+        if 'a' <= character <= 'z':
+            result += chr(ord(character) - 32)
+        else:
+            result += character
+
     # return the uppercase string
+    return result
+    
 # get user input for string
 # call the function with user input and print the result
