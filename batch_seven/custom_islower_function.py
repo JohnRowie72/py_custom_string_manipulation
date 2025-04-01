@@ -1,5 +1,9 @@
 # define a function that checks if a string is lowercase
+def custom_islower_function(string):
+
     # loop through each character in the string
+    for character in string:
+        
         # if any character is uppercase, return False
     # if the loop completes, return True
 # get user input for string
