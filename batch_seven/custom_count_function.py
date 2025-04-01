@@ -12,7 +12,12 @@ def custom_count_function(string, substring):
     
     # return the count of occurrences
     return count
-    
+
 # get user input for string
+string_name_input = input("Enter a string: ")
+
 # get user input for substring
+substring = input("Enter a substring to count: ")
+
 # call the function with user input and print the result
+print(custom_count_function(string_name_input, substring))
