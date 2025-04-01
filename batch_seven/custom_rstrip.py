@@ -10,6 +10,9 @@ def custom_rstrip_function(string):
     
     # return substring without trailing spaces
     return string[:index + 1]
-    
+
 # get user input
+string_name_input = input("Enter a string with trailing spaces: ")
+
 # call the function with user input and print the result
+print(custom_rstrip_function(string_name_input))
