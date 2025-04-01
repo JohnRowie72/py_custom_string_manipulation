@@ -1,7 +1,13 @@
 # define a function that finds the last occurrence of a substring in a string
 def custom_rindex_function(string, substring):
-    
+
     # loop through the string backwards while checking for substring matches
+    for index in range(len(string) - len(substring), -1, -1):
+
+        # if substring is found, return the index
+        if string[index:index + len(substring)] == substring:
+            return index
+            
     # if substring is not found, raise an error
 # get user input for string
 # get user input for substring
